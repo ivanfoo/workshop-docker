@@ -33,7 +33,7 @@ como la que se utiliza para crear, modificar y eliminar usuarios de una aplicaci
 https://proxy/users`  
 
 **Get user**  
-curl -k -X GET`https://localhost/users/hash_id`  
+`curl -k -X GET https://localhost/users/hash_id`  
 
 **Delete user**  
 `curl -k -H "Content-Type: application/json" -X DELETE https://proxy/users/hash_id`  
