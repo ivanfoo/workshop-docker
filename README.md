@@ -16,3 +16,9 @@ Desplegar la base de datos, el proxy y la apiv1.
 ## Bonus
 Desplegar la apiv2, una instancia de etcd y browser de etcd.
 
+## Tips
+Antes de poder hacer `docker push` es necesario construir la imagen como se 
+indica a continuación.
+
+`docker build -t registry-url/org/repo:tag`
+`docker push registry-url/org/repo:tag`
