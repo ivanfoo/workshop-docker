@@ -28,8 +28,8 @@ La API que se incluye en el repositorio es una muestra de una api CRUD tipo
 como la que se utiliza para crear, modificar y eliminar usuarios de una aplicación.
 
 **Insert or update**  
-`curl -k -H "Content-Type: application/json" -X POST -d \
-'{"email":"foo@bar.com", "fullname": "Tito Bbva", "password": "insecure1"}' \ 
+`curl -k -H "Content-Type: application/json" -X POST -d \  
+'{"email":"foo@bar.com", "fullname": "Tito Bbva", "password": "insecure1"}' \   
 https://proxy/users`  
 
 **Get user**  
