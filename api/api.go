@@ -68,6 +68,7 @@ func main() {
 		}
 
 		c.JSON(http.StatusCreated, gin.H{
+			"id":     user.Id,
 			"status": "created",
 		})
 	})
